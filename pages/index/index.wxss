@@ -1,0 +1,155 @@
+.bc {
+  display: flex;
+}
+
+.bc_ {
+  height: 50rpx;
+  width: 50rpx;
+  margin: 4rpx 4rpx;
+  line-height: 152rpx;
+  text-align: center;
+  font-size: 5rpx;
+  color: #fff7eb;
+}
+
+.bc_mini {
+  height: 36rpx;
+  width: 36rpx;
+  margin: 4rpx 4rpx;
+  line-height: 152rpx;
+  text-align: center;
+  font-size: 5rpx;
+  color: #fff7eb;
+}
+
+.bc_0 {
+  color: #FFFFFF;
+  background: #FFFFFF;
+}
+
+.bc_1 {
+  color: #0d0;
+  background: #0d0;
+}
+
+.bc_2 {
+  color: #e40;
+  background: #e40;
+}
+
+.bc_3 {
+  color: grey;
+  background: grey;
+}
+
+.bc_4 {
+  color: #AFEEEE;
+  background: #AFEEEE;
+}
+
+.bc_5 {
+  color: #98FB98;
+  background: #98FB98;
+}
+
+.bc_cavas {
+  display: flex;
+  height: 670rpx;
+  background-color: #b8af9e;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 10rpx 40rpx;
+  border-radius: 30rpx;
+}
+
+.action_cavas {
+  width: 100%;
+  height: 100%;
+}
+
+.btnCantain {
+  display: flex;
+  padding-top: 30rpx;
+}
+
+.btnClear {
+  background-color: #e5e5e5;
+  width: 10rpx;
+  border-radius: 20rpx;
+}
+
+.checkCantain {
+  margin-left: 50rpx;
+}
+
+.checkboxContain {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.resultContain {
+  height: 110rpx;
+  width: 340rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+  padding-left: 15rpx;
+  border-radius: 20rpx;
+  background-color: #98FB98
+}
+
+.textfont {
+  font-size: 35rpx;
+}
+
+.bottomData {
+  display: flex;
+}
+
+.title {
+  height: 110rpx;
+  width: 280rpx;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+  padding-left: 30rpx;
+  background-color: #98FB98;
+  border-radius: 20rpx;
+}
+
+.titleFont {
+  font-size: 80rpx;
+  font-weight: bolder;
+  color: orange;
+}
+
+.option {
+  font-weight: bolder;
+}
+
+.tip {
+  display: flex;
+  padding-left: 56rpx;
+}
+
+.tip_font {
+  font-size: 36rpx;
+  margin-bottom: 3rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+}
+
+.result {
+  margin-top: 6rpx;
+}
+
+.author {
+  margin-top: 30rpx;
+  justify-content: center;
+  align-content: center;
+  margin-left: 260rpx;
+  font-size: 10px;  
+}

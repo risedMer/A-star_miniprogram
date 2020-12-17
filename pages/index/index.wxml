@@ -1,0 +1,53 @@
+<view class = "action_cavas">
+  <view class = "bc_cavas">
+    <view class = "bc" wx:for = "{{numbers}}" wx:for-item = "row" wx:for-index = "index1">
+      <view id = "{{index1}} {{index}}" wx:for = "{{row}}" class = "bc_ bc_{{item}}" bindtap = "setBlock" />
+    </view>
+  </view>
+</view>
+<view class = "tip">
+  <view class = "bc_mini bc_1" />
+  <text class = "tip_font">起始点</text>
+  <view class = "bc_mini bc_2" />
+  <text class = "tip_font">终止点</text>
+  <view class = "bc_mini bc_3" />
+  <view class = "tip_font">障碍物</view>
+  <view class = "bc_mini bc_4" />
+  <view class = "tip_font">路线</view>
+</view>
+<view class = "checkCantain">
+  <text class = "option">Option</text>
+  <checkbox-group bindchange="checkboxChange">
+    <view class = "checkboxContain">
+      <checkbox checked = "{{chooseModeA}}" bindtap = "Achange">
+        <label>Allow Diagonal</label>
+      </checkbox>
+    </view>
+    <view class = "checkboxContain">
+      <checkbox checked = "{{chooseModeB}}" bindtap = "Bchange">
+        <label>Don't Cross Corners</label>
+      </checkbox>
+    </view>
+  </checkbox-group>
+</view>
+<view class = "btnCantain">
+  <button class = "btnClear" size = "mini" bindtap = "startSearch">开始搜索</button>
+  <button class = "btnClear" size = "mini" bindtap = "clearPath">清空路径</button>
+  <button class = "btnClear" size = "mini" bindtap = "clear">清除障碍</button>
+</view>
+<view class = "bottomData">
+  <view class = "resultContain">
+    <view class = "result">
+      <text class = "textfont">length: {{pathLength}}cm</text>
+    </view>
+    <view class = "result">
+      <text class = "textfont">time: {{time}}ms</text>
+    </view>
+  </view>
+  <view class = "title">
+    <text class = "titleFont">A-Star</text>
+  </view>
+</view>
+<view class = "author">
+  <text>Belong to 梅A* 不算法</text>
+</view>
